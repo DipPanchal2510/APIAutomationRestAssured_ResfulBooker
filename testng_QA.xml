@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/depanchal/IdeaProjects/APIAutomationRestAssured_ResfulBooker">
+        <classes>
+            <class name="com.testing.misc.TestFile"></class>
+        </classes>
+        <groups>
+            <run>
+                <include name ="qa">
+                </include>
+            </run>
+
+        </groups>
+    </test>
+</suite>
